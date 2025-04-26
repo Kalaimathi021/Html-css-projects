@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.5;
+}
+.header {
+    text-align: center;
+    padding: 30px 20px;
+}
+.header h1 {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.subheading {
+    font-size: 1.2em;
+    color: #888;
+}
+.intro-text {
+    font-size: 1em;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.banner {
+    position: relative;
+    text-align: center;
+}
+.banner-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.banner-text h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+.content {
+    padding: 50px 20px;
+}
+.content-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.content-section h3 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+.content-text {
+    font-size: 1em;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.image {
+    width: 45%;
+    height: auto;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+.button {
+    padding: 15px 25px;
+    margin: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: #555;
+}

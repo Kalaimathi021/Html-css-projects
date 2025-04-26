@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+.header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.header h1 {
+    display: inline-block;
+}
+.navbar {
+    float: right;
+}
+.navbar a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.hero {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-text {
+    max-width: 50%;
+}
+.hero h2 {
+    font-size: 2rem;
+    color: #333;
+}
+.hero p {
+    color: #777;
+    margin-bottom: 20px;
+}
+.shop-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+}
+.hero-image {
+    max-width: 300px;
+}
+.customer_experience {
+    text-align: center;
+    padding: 40px 0;
+}
+.customer_experience h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+.customer_experience p {
+    color: #777;
+    margin-bottom: 40px;
+}
+.experience-boxes {
+    display: flex;
+    justify-content: space-around;
+}
+.box {
+    width: 30%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.box h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

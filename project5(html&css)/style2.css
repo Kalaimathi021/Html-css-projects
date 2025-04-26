@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+header h1 {
+    font-size: 1.5rem;
+}
+.navbar-right a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #555;
+    font-size: 1rem;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+.intro {
+    max-width: 50%;
+}
+.intro h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.intro p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.buttons button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.get-started {
+    background-color: #ec4899;
+}
+.github-star {
+    background-color: #333;
+}
+.image img {
+    max-width: 400px;
+    height: auto;
+}
+.features {
+    display: flex;
+    padding: 2rem;
+    background-color: #fff;
+}
+.feature {
+    margin-right: 2rem;
+    max-width: 300px;
+}
+.feature img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.feature p {
+    font-size: 1rem;
+    color: #666;
+}
+.feature-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 2rem; 
+}
+.feature-item {
+    margin-bottom: 1.5rem;
+}
+.feature-item h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.feature-item p {
+    font-size: 1rem;
+}
+.components {
+    padding: 2rem;
+    background-color: #f8f8f8;
+}
+.button-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 2rem;
+}
+.button-list button {
+    padding: 10px 20px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+}
+.cards {
+    display: flex;
+    gap: 1.5rem;
+}
+.card, .profile-card {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+}
+.card h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+.card p {
+    font-size: 1rem;
+    color: #666;
+}
+.github-btn {
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.profile-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.profile-card h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+.profile-card p {
+    font-size: 1rem;
+    color: #666;
+}
+.social-icons button {
+    background-color: #ddd;
+    border: none;
+    padding: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.badge {
+    background-color: #ec4899;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
